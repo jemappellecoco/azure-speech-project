@@ -1,0 +1,17 @@
+# 不要上傳 .env（儲存機密金鑰用）
+.env
+
+# Python 建議忽略
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Poetry 虛擬環境相關（視情況保留）
+.poetry/
+poetry.lock
+
+# VSCode/IDE 特定設定
+.vscode/
+.idea/
