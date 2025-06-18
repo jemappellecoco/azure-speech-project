@@ -1,0 +1,21 @@
+[project]
+name = "azure-speech-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Coco",email = "q4266213coco@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "azure-cognitiveservices-speech (>=1.44.0,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "azure_speech_project", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
